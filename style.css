@@ -108,6 +108,7 @@ header nav{
 }
 
 .imagenes{
+    justify-content: center;
     columns: 5 240px;
     margin: auto;
 }
@@ -149,7 +150,7 @@ header nav{
     font-weight: bold;
 }
 
-.oculto1{
+.oculto1, .oculto2{
     position: absolute;
     left: 60%;
     bottom: 8%;
@@ -161,6 +162,7 @@ header nav{
     padding: 4px;
     visibility: hidden;
     display: none;
+    cursor: pointer;
 }
 
 .oculto2{
@@ -175,5 +177,10 @@ header nav{
     padding: 4px;
     visibility: hidden;
     display: none;
+    cursor: pointer;
 }
+
+
+
+
 
